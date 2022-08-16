@@ -12,7 +12,7 @@ document.getElementById("btn-submit").addEventListener("click", function () {
   const password = passwordField.value;
   //   DANGER: DO NOT VERIFY email or password on the client side
   //   step-4: verify email and password
-  if (email === "mr7123619@gmail.com" && password === "lionel messi") {
+  if (email === "mr7123619@gmail.com" && password === "masudRana") {
     window.location.href = "bank.html";
   } else {
     alert("invalid user");
